@@ -194,18 +194,18 @@ EMAIL_USE_SSL = False
 
 
 UNFOLD = {
-    "SITE_HEADER": "NICO WHOLESALE COMPUTERS LTD",
+    "SITE_HEADER": "FAHMI COMPUTER WORLD LTD",
     "SHOW_SIDEBAR": True,
-    "SITE_TITLE": "NICO WHOLESALE COMPUTERS LTD",
-    "SITE_SUBHEADER": "NICO WHOLESALE COMPUTERS LTD Admin Panel",
+    "SITE_TITLE": "FAHMI COMPUTER WORLD LTD",
+    "SITE_SUBHEADER": "FAHMI COMPUTER WORLD LTD Admin Panel",
     "SITE_URL": "/",
     "SITE_ICON": {
-        "light": lambda request: static("assets/logo/nico_black.png"),
-        "dark": lambda request: static("assets/logo/nico_white.png"),
+        "light": lambda request: static("assets/logo/fahmi_black.png"),
+        "dark": lambda request: static("assets/logo/fahmi_white.png"),
     },
     "SITE_LOGO": {
-        "light": lambda request: static("assets/logo/nico_black.png"),
-        "dark": lambda request: static("assets/logo/nico_white.png"),
+      "light": lambda request: static("assets/logo/fahmi_black.png"),
+        "dark": lambda request: static("assets/logo/fahmi_white.png"),
     },
     "DASHBOARD": {
         "show_search": True,
