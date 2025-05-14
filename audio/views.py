@@ -388,6 +388,11 @@ def myorders(request):
     })
 
 
+def view_order(request, order_id):
+    order = get_object_or_404(Order, order_id=order_id)
+    return render(request, 'home/my_orders.html', {'order': order})
+
+
 
 def about_us_view(request):
     return render(request,'home/about.html')
