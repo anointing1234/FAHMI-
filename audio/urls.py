@@ -26,7 +26,7 @@ urlpatterns = [
     path('contact/',views.contact_view,name='contact'),
     path('search/',views.product_search, name='product_search'),
     path('terms_condition/',views.terms_view,name='terms_condition'), 
-    path('orders/<str:order_id>/', views.view_order, name='view_order'),
+    path('orders/<str:order_id>/', views.view_order, name='orders'),
     path('refund_policy/',views.refund_view,name='refund_policy'),
     re_path(r'^media/(?P<path>.*)$', serve,{'document_root': settings.MEDIA_ROOT}),
     re_path(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}),
